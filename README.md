@@ -19,5 +19,5 @@ docker build -t django-app .
 
 3. Run the app
 ```
-docker run -d -p 8000:8000 django-app:latest
+docker run -d -p 8080:8080 django-app:latest
 ```
