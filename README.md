@@ -14,10 +14,10 @@ git clone https://github.com/mohittandon/django-notes-app.git
 
 2. Build the app
 ```
-docker build -t notes-app .
+docker build -t django-app .
 ```
 
 3. Run the app
 ```
-docker run -d -p 8000:8000 notes-app:latest
+docker run -d -p 8000:8000 django-app:latest
 ```
